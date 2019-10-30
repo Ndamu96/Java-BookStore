@@ -25,7 +25,7 @@
         <c:if test="${book != null}">
           Edit Book Form  
         </c:if>
-       <c:if test="${book != null}">
+       <c:if test="${book == null}">
         New Book Form
         </c:if>
     </h2>
